@@ -1,0 +1,84 @@
+/* Importa as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Open+Sans&display=swap');
+
+/* Estilos gerais para o corpo da página */
+body {
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura e altura total do elemento */
+    color: #f6f6f6; /* Define a cor do texto como um cinza muito claro */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove paddings padrão do navegador */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte padrão do corpo como 'Open Sans' */
+}
+
+/* Estilos para o contêiner principal do conteúdo */
+.conteudo {
+    display: flex; /* Ativa o Flexbox para facilitar o alinhamento dos elementos internos */
+    flex-direction: column; /* Alinha os itens internamente na vertical */
+    justify-content: center; /* Centraliza os itens verticalmente dentro do contêiner */
+    align-items: center; /* Centraliza os itens horizontalmente dentro do contêiner */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+    padding: 0 20px; /* Adiciona padding horizontal para evitar que o conteúdo encoste nas laterais */
+}
+
+/* Estilos para a imagem */
+.imagem {
+    width: 348px; /* Define a largura da imagem */
+    height: 223px; /* Define a altura da imagem */
+    margin: 0 auto 72px auto; /* Centraliza a imagem e adiciona um espaçamento inferior */
+    opacity: 1; /* Garante que a imagem esteja completamente visível */
+}
+
+/* Estilos para o título principal */
+.conteudo__titulo {
+    font-family: 'Inter'; /* Define a fonte do título como 'Inter' */
+    font-size: 49px; /* Define o tamanho da fonte */
+    font-weight: 400; /* Define a espessura da fonte */
+    line-height: 56px; /* Define a altura da linha */
+    Width: 562px; /* Define a largura do título */
+    color: black; /* Define a cor do texto como preto */
+    text-shadow: 5px 2px 5px #00000040; /* Adiciona sombra ao texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto 32px auto; /* Centraliza o título e adiciona espaçamento inferior */
+    max-width: 100%; /* Garante que o título não ultrapasse a largura da tela */
+}
+
+/* Estilos para os parágrafos */
+.conteudo__paragrafo {
+    width: 592px; /* Define a largura dos parágrafos */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte como 'Open Sans' */
+    font-size: 14px; /* Define o tamanho da fonte */
+    font-weight: 400; /* Define a espessura da fonte */
+    line-height: 28px; /* Define a altura da linha */
+    text-align: center; /* Centraliza o texto */
+    color: #7D7987; /* Define a cor do texto como um cinza escuro */
+    margin: 0; /* Remove margens entre os parágrafos */
+}
+
+/* Estilo para o texto cinza */
+.cinza {
+    color: #7D7987; /* Define a cor do texto como cinza */
+}
+
+/* Estilo para o texto azul */
+.azul {
+    color: #0075FF; /* Define a cor do texto como azul */
+}
+
+/* Estilos para o rodapé com os links */
+.ancora {
+    display: flex; /* Ativa o Flexbox para os links */
+    justify-content: center; /* Centraliza os links horizontalmente */
+    align-items: center; /* Alinha os links verticalmente */
+    border-top: 1px solid #ECEFF2; /* Adiciona uma linha superior no rodapé */
+    padding: 20px; /* Adiciona padding ao redor do rodapé */
+    margin-top: 80px; /* Adiciona espaçamento entre o conteúdo e o rodapé */
+}
+
+/* Estilos para os links dentro do rodapé */
+.ancora__links {
+    color: #0075FF; /* Define a cor dos links como azul */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 30px; /* Adiciona espaçamento horizontal entre os links */
+    text-align: center; /* Centraliza o texto dentro dos links */
+}
